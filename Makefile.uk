@@ -1,3 +1,5 @@
 $(eval $(call addlib,apphelloworld))
 
 APPHELLOWORLD_SRCS-y += $(APPHELLOWORLD_BASE)/main.c
+#APPHELLOWORLD_OBJS-y += $(APPHELLOWORLD_BASE)/hw.o
+#APPHELLOWORLD_OBJS-y += $(APPHELLOWORLD_BASE)/hw.o

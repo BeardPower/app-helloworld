@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 	int i;
 #endif
 
-	printf("Hello world!\n");
+	helloworld();
 
 #if CONFIG_APPHELLOWORLD_PRINTARGS
 	printf("Arguments: ");

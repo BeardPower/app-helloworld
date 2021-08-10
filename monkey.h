@@ -85,6 +85,8 @@
 #define MC_MOUTH MC_RST
 #endif /* !MONKEY_COLORS */
 
+extern helloworld;
+
 static const char *monkey3[] = {
 	MC_RST "     " MC_BODY "_" MC_RST "               ",
 	MC_RST "   " MC_FACE "c" MC_EYE "'" MC_MOUTH "_" MC_EYE "'" MC_FACE "o" MC_RST "  " MC_BODY ".--'" MC_RST "       ",
